@@ -626,12 +626,14 @@ video {
 .blog-featured {
   background: url('../images/article-image-hero.png');
   background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 @media (min-width: 1024px) {
   .blog-featured {
     background: url('../images/blog-image-hero.png');
     background-repeat: no-repeat;
+    background-position: bottom;
     background-size: 100%;
   }
 }

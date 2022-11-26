@@ -623,6 +623,10 @@ video {
   text-transform: uppercase;
 }
 
+.view-more {
+  cursor: pointer;
+}
+
 .blog-featured {
   background: url('../images/article-image-hero.png');
   background-repeat: no-repeat;

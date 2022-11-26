@@ -622,3 +622,16 @@ video {
 .uppercase {
   text-transform: uppercase;
 }
+
+.blog-featured {
+  background: url('../images/article-image-hero.png');
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 1024px) {
+  .blog-featured {
+    background: url('../images/blog-image-hero.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+}

@@ -1,109 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="css/main.css" rel="stylesheet" />
+    <title>My Learning Journal Blog</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href="css/main.css" rel="stylesheet">
-  <title>My Learning Journal Blog</title>
-</head>
-
-<body class="font-sans">
-  <!-- Navbar -->
-  <nav class="relative p-4 mx-auto bg-blue-600">
-    <div class="flex items-center justify-between">
-      <div class="logo">
-        <img src="" alt="some image" class="title-icon" />
-        <h3 class="title ">My learning journal</h3>
+  <body class="font-sans">
+    <!-- Navbar -->
+    <nav class="relative text-sm p-4">
+      <div class="flex items-center content-center justify-between">
+        <div class="flex-row items-center gap-1.5">
+          <img
+            src="./images/image 17.png"
+            alt="some image"
+            class="title-icon"
+          />
+          <h3 class="title">My learning journal</h3>
+        </div>
+        <ul class="flex-row uppercase gap-3">
+          <li><a href="">Home</a></li>
+          <li><a href="">About Me</a></li>
+        </ul>
       </div>
-      <ul class="nav-links uppercase">
-        <li><a href="">Home</a></li>
-        <li><a href="">About Me</a></li>
-      </ul>
-    </div>
-  </nav>
+    </nav>
 
-  <header class="blog-featured">
-    <p class="date">July 23, 2022</p>
-    <h2 class="blog-featured-title">
-      <a href="featuredblog.html">My new journey as a bootcamp student</a>
-    </h2>
-    <p class="blog-featured-content">
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error
-      blanditiis modi ad doloribus quasi tenetur cupiditate cum esse,
-      perferendis, sed deleniti veniam quas repellat at dolor iusto distinctio
-      quisquam. Iusto.
-    </p>
-  </header>
+    <header
+      class="blog-featured flex flex-col justify-end h-72 p-4 text-white lg:h-[95vh] p-16"
+    >
+      <p class="date text-xs">July 23, 2022</p>
+      <h2 class="blog-featured-title text-3xl font-bold">
+        <a href="featuredblog.html">My new journey as a bootcamp student.</a>
+      </h2>
+      <p class="blog-featured-content text-base lg:w-8/12">
+        After several months of learning in the Frontend Developer Career Path,
+        I've made the big jump over to the Bootcamp to get expert code reviews
+        of my Solo Projects projects and meet like-minded peers.
+      </p>
+    </header>
 
-  <article class="blog-article-container">
-    <section class="blog-article">
-      <img src="" alt="blog image" class="blog-article-img" />
-      <p class="date">July 23, 2022</p>
-      <h2 class="blog-article-title"><a href="">Blog one</a></h2>
-      <p class="blog-article-content">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error
-        blanditiis modi ad doloribus quasi tenetur cupiditate cum esse,
-        perferendis.
-      </p>
-    </section>
-    <section class="blog-article">
-      <img src="" alt="blog image" class="blog-article-img" />
-      <p class="date">July 23, 2022</p>
-      <h2 class="blog-article-title"><a href="">Blog two</a></h2>
-      <p class="blog-article-content">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error
-        blanditiis modi ad doloribus quasi tenetur cupiditate cum esse,
-        perferendis.
-      </p>
-    </section>
-    <section class="blog-article">
-      <img src="" alt="blog image" class="blog-article-img" />
-      <p class="date">July 23, 2022</p>
-      <h2 class="blog-article-title"><a href="">Blog three</a></h2>
-      <p class="blog-article-content">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error
-        blanditiis modi ad doloribus quasi tenetur cupiditate cum esse,
-        perferendis.
-      </p>
-    </section>
-    <section class="blog-article">
-      <img src="" alt="blog image" class="blog-article-img" />
-      <p class="date">July 23, 2022</p>
-      <h2 class="blog-article-title"><a href="">Blog four</a></h2>
-      <p class="blog-article-content">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error
-        blanditiis modi ad doloribus quasi tenetur cupiditate cum esse,
-        perferendis.
-      </p>
-    </section>
-    <section class="blog-article">
-      <img src="" alt="blog image" class="blog-article-img" />
-      <p class="date">July 23, 2022</p>
-      <h2 class="blog-article-title"><a href="">Blog five</a></h2>
-      <p class="blog-article-content">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error
-        blanditiis modi ad doloribus quasi tenetur cupiditate cum esse,
-        perferendis.
-      </p>
-    </section>
-    <section class="blog-article">
-      <img src="" alt="blog image" class="blog-article-img" />
-      <p class="date">July 23, 2022</p>
-      <h2 class="blog-article-title"><a href="">Blog six</a></h2>
-      <p class="blog-article-content">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error
-        blanditiis modi ad doloribus quasi tenetur cupiditate cum esse,
-        perferendis.
-      </p>
-    </section>
-    <span>View More</span>
-  </article>
-  <footer>
-    <p>My Learning Journal</p>
-    <p>Copyright @2022</p>
-  </footer>
-</body>
-
+    <article class="blog-article-container pt-5 px-5 mt-4">
+      <section class="blog-article mb-4">
+        <img
+          src="./images/article-image-01.png"
+          alt="blog image"
+          class="blog-article-img"
+        />
+        <div class="content-section mt-5 mb-12">
+          <p class="date">July 23, 2022</p>
+          <h2 class="blog-article-title text-2xl font-bold my-2">
+            <a href="">Blog one</a>
+          </h2>
+          <p class="blog-article-content">
+            I'm excited to start a new learning journey as a Scrimba Bootcamp
+            student! After several months of learning in the Frontend Developer
+            Career Path.
+          </p>
+        </div>
+      </section>
+      <section class="blog-article mb-4">
+        <img
+          src="./images/article-image-02.png"
+          alt="blog image"
+          class="blog-article-img"
+        />
+        <div class="content-section mt-5 mb-12">
+          <p class="date">July 23, 2022</p>
+          <h2 class="blog-article-title text-2xl font-bold my-2">
+            <a href="">Blog two</a>
+          </h2>
+          <p class="blog-article-content">
+            I'm excited to start a new learning journey as a Scrimba Bootcamp
+            student! After several months of learning in the Frontend Developer
+            Career Path.
+          </p>
+        </div>
+      </section>
+      <section class="blog-article">
+        <img
+          src="./images/article-image-03.png"
+          alt="blog image"
+          class="blog-article-img"
+        />
+        <div class="content-section mt-5">
+          <p class="date">July 23, 2022</p>
+          <h2 class="blog-article-title text-2xl font-bold my-2">
+            <a href="">Blog three</a>
+          </h2>
+          <p class="blog-article-content">
+            I'm excited to start a new learning journey as a Scrimba Bootcamp
+            student! After several months of learning in the Frontend Developer
+            Career Path.
+          </p>
+        </div>
+      </section>
+    </article>
+    <span
+      class="font-bold flex justify-center underline p-6 mb-7 decoration-solid"
+      >View More</span
+    >
+    <footer
+      class="flex flex-col justify-center items-center bg-stone-900 text-white text-xs h-28"
+    >
+      <p class="font-bold">My Learning Journal</p>
+      <p>Copyright @2022</p>
+    </footer>
+  </body>
 </html>

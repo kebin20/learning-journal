@@ -1,5 +1,6 @@
 # learning-journal
 
-A personal blog that will reflect my learning journey in web development . It will be a simple blog styled with Tailwind CSS. Future JS implementations will be added to enable interactivity.
-
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/learning-journal)
+A personal blogging website documenting your personal learning journey, fully built with Tailwind CSS. 
+Future JS will be implemented for: 
+- Seeing more posts after clicking the view more
+- Changing the menu to a hamburger menu when it's in mobile mode

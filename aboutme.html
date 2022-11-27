@@ -4,104 +4,154 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/main.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/index.css" />
     <title>About Me</title>
   </head>
-  <body>
-    <nav>
-      <img src="" alt="some image" class="title-icon" />
-      <h3 class="title">My learning journal</h3>
-      <ul class="nav-links">
-        <li><a href="">Home</a></li>
-        <li><a href="">About Me</a></li>
-      </ul>
+
+  <body class="font-sans leading-6">
+    <!-- Navbar -->
+    <nav
+      class="fixed top-0 left-0 right-0 text-xs p-4 tracking-tight bg-white lg:text-lg shadow-md shadow-slate-200"
+    >
+      <div class="flex items-center content-center justify-between">
+        <div class="flex-row items-center gap-1.5 lg:pl-8">
+          <img
+            src="./images/image 17.png"
+            alt="some image"
+            class="title-icon"
+          />
+          <h3 class="title font-bold text-xs lg:text-lg">
+            My learning journal
+          </h3>
+        </div>
+        <ul
+          class="flex-row uppercase font-semibold gap-4 lg:mr-10 lg:gap-8 md:mr-10"
+        >
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./aboutme.html">About Me</a></li>
+        </ul>
+      </div>
     </nav>
 
-    <article class="about-me">
-      <img src="" alt="personal image" class="about-me-img" />
-      <h1 class="about-me-title">Hi there!My name is {insert name}</h1>
-      <p class="about-me-content">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime impedit
-        id a, veniam repellendus possimus tempore cum perspiciatis? Vero
-        perferendis laborum fuga minus quaerat voluptas ducimus cupiditate
-        nostrum ad placeat?
-      </p>
+    <article class="flex flex-col p-6 mt-14 lg:mt-36">
+      <section
+        class="about-me grid lg:grid-rows-2 lg:grid-flow-col lg:px-20 lg:mb-12"
+      >
+        <img
+          src="./images/image 18.png"
+          alt="personal image"
+          class="about-me-img w-3/6 lg:w-48 lg:row-span-3 lg:mr-10"
+        />
+        <h1
+          class="about-me-title font-bold tracking-tight text-3xl pt-8 lg:col-span-2 lg:w-5/6"
+        >
+          Hi there! My name is Roku and welcome to my learning journal.
+        </h1>
+        <p class="py-4 lg:row-span-2 lg:col-span-2 lg:w-5/6">
+          After several months of learning in the Frontend Developer Career
+          Path, I've made the big jump over to the Bootcamp to get expert code
+          reviews of my Solo Projects projects and meet like-minded peers.
+        </p>
+      </section>
 
-      <section class="blog-post">
-        <p class="blog-title">How I stayed committed to learning</p>
+      <section class="blog-post lg:px-36">
+        <p class="blog-title font-bold my-6">
+          How I stayed committed to learning
+        </p>
         <p class="blog-content">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
-          corrupti natus nostrum a, dolores fuga voluptatibus ea quia deserunt
-          nihil cumque expedita sit veniam nam consequatur? Minima sed non odio.
-          Qui totam nulla excepturi laborum aliquid deserunt et possimus.
-          Asperiores facilis sed dolorem facere eaque nesciunt eligendi nisi,
-          esse, porro maiores eveniet, mollitia fuga nemo voluptatibus adipisci
-          ducimus animi harum!
+          I like to think of myself as a lifelong learner. I used to spend hours
+          and hours learning, then try to create simple projects using what I
+          learned or work new techniques into existing projects.
+        </p>
+
+        <p class="blog-content my-6">
+          While that was fun, I felt like it would be helpful to share what I
+          was learning and most things about my journey with the world.
+        </p>
+
+        <p class="blog-title font-bold">How I got started</p>
+        <p class="blog-content my-6">
+          I started simple and gradually grew my learning journal site. I would
+          take notes about what I was learning. After each learning session, I'd
+          use my notes to not only reflect on what I learned but also write
+          short summaries of what I learned using my own words.
         </p>
 
         <p class="blog-content">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe porro
-          nihil sed accusantium assumenda vel laborum pariatur. Incidunt modi
-          illum esse mollitia ex consequuntur? Commodi pariatur rerum neque
-          ullam maxime.
-        </p>
-
-        <p class="blog-title">How I got started</p>
-        <p class="blog-content">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
-          corrupti natus nostrum a, dolores fuga voluptatibus ea quia deserunt
-          nihil cumque expedita sit veniam nam consequatur? Minima sed non odio.
-          Qui totam nulla excepturi laborum aliquid deserunt et possimus.
-          Asperiores facilis sed dolorem facere eaque nesciunt eligendi nisi,
-          esse, porro maiores eveniet, mollitia fuga nemo voluptatibus adipisci
-          ducimus animi harum!
-        </p>
-
-        <p class="blog-content">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe porro
-          nihil sed accusantium assumenda vel laborum pariatur. Incidunt modi
-          illum esse mollitia ex consequuntur? Commodi pariatur rerum neque
-          ullam maxime.
+          That helped me grok what I was learning, and I realized that posting
+          my learning summaries was also helping others learn and stay
+          motivated.
         </p>
       </section>
     </article>
-    
-    <span>Recent posts</span>
 
-    <article class="blog-article-container">
-      <section class="blog-article">
-        <img src="" alt="blog image" class="blog-article-img" />
-        <p class="date">July 23, 2022</p>
-        <h2 class="blog-article-title"><a href="">Blog one</a></h2>
-        <p class="blog-article-content">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error
-          blanditiis modi ad doloribus quasi tenetur cupiditate cum esse,
-          perferendis.
-        </p>
+    <span class="font-bold flex justify-center p-6">Recent posts</span>
+
+    <article
+      class="blog-article-container grid pt-5 px-5 lg:px-12 mb-10 lg:grid-cols-3 lg:gap-36 md:grid-cols-3 md:gap-7"
+    >
+      <section class="blog-article mb-4">
+        <img
+          src="./images/article-image-01.png"
+          alt="blog image"
+          class="blog-article-img"
+        />
+        <div class="content-section mt-5 mb-12">
+          <p class="date">July 23, 2022</p>
+          <h2 class="blog-article-title text-2xl font-bold my-2">
+            <a href="">Blog one</a>
+          </h2>
+          <p class="blog-article-content">
+            I'm excited to start a new learning journey as a Scrimba Bootcamp
+            student! After several months of learning in the Frontend Developer
+            Career Path.
+          </p>
+        </div>
       </section>
-      <section class="blog-article">
-        <img src="" alt="blog image" class="blog-article-img" />
-        <p class="date">July 23, 2022</p>
-        <h2 class="blog-article-title"><a href="">Blog two</a></h2>
-        <p class="blog-article-content">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error
-          blanditiis modi ad doloribus quasi tenetur cupiditate cum esse,
-          perferendis.
-        </p>
+
+      <section class="blog-article mb-4">
+        <img
+          src="./images/article-image-02.png"
+          alt="blog image"
+          class="blog-article-img"
+        />
+        <div class="content-section mt-5 mb-12">
+          <p class="date">July 23, 2022</p>
+          <h2 class="blog-article-title text-2xl font-bold my-2">
+            <a href="">Blog two</a>
+          </h2>
+          <p class="blog-article-content">
+            I'm excited to start a new learning journey as a Scrimba Bootcamp
+            student! After several months of learning in the Frontend Developer
+            Career Path.
+          </p>
+        </div>
       </section>
-      <section class="blog-article">
-        <img src="" alt="blog image" class="blog-article-img" />
-        <p class="date">July 23, 2022</p>
-        <h2 class="blog-article-title"><a href="">Blog three</a></h2>
-        <p class="blog-article-content">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error
-          blanditiis modi ad doloribus quasi tenetur cupiditate cum esse,
-          perferendis.
-        </p>
+
+      <section class="blog-article mb-4">
+        <img
+          src="./images/article-image-03.png"
+          alt="blog image"
+          class="blog-article-img"
+        />
+        <div class="content-section mt-5">
+          <p class="date">July 23, 2022</p>
+          <h2 class="blog-article-title text-2xl font-bold my-2">
+            <a href="">Blog three</a>
+          </h2>
+          <p class="blog-article-content">
+            I'm excited to start a new learning journey as a Scrimba Bootcamp
+            student! After several months of learning in the Frontend Developer
+            Career Path.
+          </p>
+        </div>
       </section>
-      <span>View More</span>
     </article>
-    <footer>
-      <p>My Learning Journal</p>
+    <footer
+      class="flex flex-col justify-center items-center bg-stone-800 text-white text-xs h-28"
+    >
+      <p class="font-bold">My Learning Journal</p>
       <p>Copyright @2022</p>
     </footer>
   </body>

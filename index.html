@@ -1,136 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <link href="css/main.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <title>My Learning Journal Blog</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- <script src="https://cdn.tailwindcss.com"></script> -->
-  <link href="css/main.css" rel="stylesheet" />
-  <link rel="stylesheet" href="./css/index.css">
-  <title>My Learning Journal Blog</title>
-</head>
+  <body class="font-sans leading-6">
+    <!-- Navbar -->
+    <nav
+      class="fixed top-0 left-0 right-0 text-xs p-4 tracking-tight bg-white lg:text-lg"
+    >
+      <div class="flex items-center content-center justify-between">
+        <div class="flex-row items-center gap-1.5 lg:pl-8">
+          <img
+            src="./images/image 17.png"
+            alt="some image"
+            class="title-icon"
+          />
+          <h3 class="title font-bold text-xs lg:text-lg">
+            My learning journal
+          </h3>
+        </div>
+        <ul
+          class="flex-row uppercase font-semibold gap-4 lg:mr-10 lg:gap-20 md:mr-10"
+        >
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./aboutme.html">About Me</a></li>
+        </ul>
+      </div>
+    </nav>
 
-<body class="font-sans">
-  <!-- Navbar -->
-  <nav class="relative text-sm p-4">
-    <div class="flex items-center content-center justify-between">
-      <div class="flex-row items-center gap-1.5">
-        <img src="./images/image 17.png" alt="some image" class="title-icon" />
-        <h3 class="title">My learning journal</h3>
-      </div>
-      <ul class="flex-row uppercase gap-4 lg:mr-10 lg:gap-8 md:mr-10">
-        <li><a href="./index.html">Home</a></li>
-        <li><a href="./aboutme.html">About Me</a></li>
-      </ul>
-    </div>
-  </nav>
+    <header
+      class="blog-featured flex flex-col justify-end h-full p-8 text-white mt-14 lg:p-12 lg:h-128"
+    >
+      <p class="date text-xs">July 23, 2022</p>
+      <h2 class="blog-featured-title text-3xl font-bold">
+        <a href="featuredblog.html">My new journey as a bootcamp student.</a>
+      </h2>
+      <p class="blog-featured-content text-base lg:w-8/12">
+        After several months of learning in the Frontend Developer Career Path,
+        I've made the big jump over to the Bootcamp to get expert code reviews
+        of my Solo Projects projects and meet like-minded peers.
+      </p>
+    </header>
 
-  <header class="blog-featured flex flex-col justify-end h-full p-8 text-white lg:p-12 lg:h-128">
-    <p class="date text-xs">July 23, 2022</p>
-    <h2 class="blog-featured-title text-3xl font-bold">
-      <a href="featuredblog.html">My new journey as a bootcamp student.</a>
-    </h2>
-    <p class="blog-featured-content text-base lg:w-8/12">
-      After several months of learning in the Frontend Developer Career Path,
-      I've made the big jump over to the Bootcamp to get expert code reviews
-      of my Solo Projects projects and meet like-minded peers.
-    </p>
-  </header>
+    <article
+      class="blog-article-container grid pt-5 px-5 lg:px-12 mt-4 lg:grid-cols-3 lg:gap-16 md:grid-cols-3 md:gap-7"
+    >
+      <section class="blog-article mb-4">
+        <img
+          src="./images/article-image-01.png"
+          alt="blog image"
+          class="blog-article-img"
+        />
+        <div class="content-section mt-5 mb-12">
+          <p class="date">July 23, 2022</p>
+          <h2 class="blog-article-title text-2xl font-bold my-2">
+            <a href="">Blog one</a>
+          </h2>
+          <p class="blog-article-content">
+            I'm excited to start a new learning journey as a Scrimba Bootcamp
+            student! After several months of learning in the Frontend Developer
+            Career Path.
+          </p>
+        </div>
+      </section>
 
-  <article class="blog-article-container grid pt-5 px-5 mt-4 lg:grid-cols-3 lg:gap-7 md:grid-cols-3 md:gap-7">
-    <section class="blog-article mb-4">
-      <img src="./images/article-image-01.png" alt="blog image" class="blog-article-img" />
-      <div class="content-section mt-5 mb-12">
-        <p class="date">July 23, 2022</p>
-        <h2 class="blog-article-title text-2xl font-bold my-2">
-          <a href="">Blog one</a>
-        </h2>
-        <p class="blog-article-content">
-          I'm excited to start a new learning journey as a Scrimba Bootcamp
-          student! After several months of learning in the Frontend Developer
-          Career Path.
-        </p>
-      </div>
-    </section>
+      <section class="blog-article mb-4">
+        <img
+          src="./images/article-image-02.png"
+          alt="blog image"
+          class="blog-article-img"
+        />
+        <div class="content-section mt-5 mb-12">
+          <p class="date">July 23, 2022</p>
+          <h2 class="blog-article-title text-2xl font-bold my-2">
+            <a href="">Blog two</a>
+          </h2>
+          <p class="blog-article-content">
+            I'm excited to start a new learning journey as a Scrimba Bootcamp
+            student! After several months of learning in the Frontend Developer
+            Career Path.
+          </p>
+        </div>
+      </section>
 
-    <section class="blog-article mb-4">
-      <img src="./images/article-image-02.png" alt="blog image" class="blog-article-img" />
-      <div class="content-section mt-5 mb-12">
-        <p class="date">July 23, 2022</p>
-        <h2 class="blog-article-title text-2xl font-bold my-2">
-          <a href="">Blog two</a>
-        </h2>
-        <p class="blog-article-content">
-          I'm excited to start a new learning journey as a Scrimba Bootcamp
-          student! After several months of learning in the Frontend Developer
-          Career Path.
-        </p>
-      </div>
-    </section>
-
-    <section class="blog-article mb-4">
-      <img src="./images/article-image-03.png" alt="blog image" class="blog-article-img" />
-      <div class="content-section mt-5">
-        <p class="date">July 23, 2022</p>
-        <h2 class="blog-article-title text-2xl font-bold my-2">
-          <a href="">Blog three</a>
-        </h2>
-        <p class="blog-article-content">
-          I'm excited to start a new learning journey as a Scrimba Bootcamp
-          student! After several months of learning in the Frontend Developer
-          Career Path.
-        </p>
-      </div>
-    </section>
-    <section class="blog-article mb-4">
-      <img src="./images/blog-image-04.png" alt="blog image" class="blog-article-img w-96 h-60" />
-      <div class="content-section mt-5">
-        <p class="date">July 23, 2022</p>
-        <h2 class="blog-article-title text-2xl font-bold my-2">
-          <a href="">Blog four</a>
-        </h2>
-        <p class="blog-article-content">
-          I'm excited to start a new learning journey as a Scrimba Bootcamp
-          student! After several months of learning in the Frontend Developer
-          Career Path.
-        </p>
-      </div>
-    </section>
-    <section class="blog-article mb-4">
-      <img src="./images/blog-image-05.png" alt="blog image" class="blog-article-img w-96 h-60" />
-      <div class="content-section mt-5">
-        <p class="date">July 23, 2022</p>
-        <h2 class="blog-article-title text-2xl font-bold my-2">
-          <a href="">Blog five</a>
-        </h2>
-        <p class="blog-article-content">
-          I'm excited to start a new learning journey as a Scrimba Bootcamp
-          student! After several months of learning in the Frontend Developer
-          Career Path.
-        </p>
-      </div>
-    </section>
-    <section class="blog-article">
-      <img src="./images/blog-image-06.png" alt="blog image" class="blog-article-img w-96 h-60" />
-      <div class="content-section mt-5">
-        <p class="date">July 23, 2022</p>
-        <h2 class="blog-article-title text-2xl font-bold my-2">
-          <a href="">Blog six</a>
-        </h2>
-        <p class="blog-article-content">
-          I'm excited to start a new learning journey as a Scrimba Bootcamp
-          student! After several months of learning in the Frontend Developer
-          Career Path.
-        </p>
-      </div>
-    </section>
-  </article>
-  <span class="view-more font-bold flex justify-center underline p-10 mb-5 decoration-solid">View More</span>
-  <footer class="flex flex-col justify-center items-center bg-stone-900 text-white text-xs h-28">
-    <p class="font-bold">My Learning Journal</p>
-    <p>Copyright @2022</p>
-  </footer>
-</body>
-
+      <section class="blog-article mb-4">
+        <img
+          src="./images/article-image-03.png"
+          alt="blog image"
+          class="blog-article-img"
+        />
+        <div class="content-section mt-5">
+          <p class="date">July 23, 2022</p>
+          <h2 class="blog-article-title text-2xl font-bold my-2">
+            <a href="">Blog three</a>
+          </h2>
+          <p class="blog-article-content">
+            I'm excited to start a new learning journey as a Scrimba Bootcamp
+            student! After several months of learning in the Frontend Developer
+            Career Path.
+          </p>
+        </div>
+      </section>
+      <section class="blog-article mb-4">
+        <img
+          src="./images/blog-image-04.png"
+          alt="blog image"
+          class="blog-article-img w-96 h-60"
+        />
+        <div class="content-section mt-5">
+          <p class="date">July 23, 2022</p>
+          <h2 class="blog-article-title text-2xl font-bold my-2">
+            <a href="">Blog four</a>
+          </h2>
+          <p class="blog-article-content">
+            I'm excited to start a new learning journey as a Scrimba Bootcamp
+            student! After several months of learning in the Frontend Developer
+            Career Path.
+          </p>
+        </div>
+      </section>
+      <section class="blog-article mb-4">
+        <img
+          src="./images/blog-image-05.png"
+          alt="blog image"
+          class="blog-article-img w-96 h-60"
+        />
+        <div class="content-section mt-5">
+          <p class="date">July 23, 2022</p>
+          <h2 class="blog-article-title text-2xl font-bold my-2">
+            <a href="">Blog five</a>
+          </h2>
+          <p class="blog-article-content">
+            I'm excited to start a new learning journey as a Scrimba Bootcamp
+            student! After several months of learning in the Frontend Developer
+            Career Path.
+          </p>
+        </div>
+      </section>
+      <section class="blog-article">
+        <img
+          src="./images/blog-image-06.png"
+          alt="blog image"
+          class="blog-article-img w-96 h-60"
+        />
+        <div class="content-section mt-5">
+          <p class="date">July 23, 2022</p>
+          <h2 class="blog-article-title text-2xl font-bold my-2">
+            <a href="">Blog six</a>
+          </h2>
+          <p class="blog-article-content">
+            I'm excited to start a new learning journey as a Scrimba Bootcamp
+            student! After several months of learning in the Frontend Developer
+            Career Path.
+          </p>
+        </div>
+      </section>
+    </article>
+    <span
+      class="view-more font-bold flex justify-center p-10 mb-5 underline decoration-solid"
+      >View More</span
+    >
+    <footer
+      class="flex flex-col justify-center items-center bg-stone-800 text-white text-xs h-28"
+    >
+      <p class="font-bold">My Learning Journal</p>
+      <p>Copyright @2022</p>
+    </footer>
+  </body>
 </html>

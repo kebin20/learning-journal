@@ -4,4 +4,4 @@ A personal blogging website documenting your personal learning journey, fully bu
 
 Future JS will be implemented for: 
 - Seeing more posts after clicking the view more
-- Changing the menu to a hamburger menu when it's in mobile mode
+- Changing the menu to a hamburger menu when it's in mobile mode (COMPLETE)

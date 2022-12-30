@@ -15,26 +15,47 @@
     <nav
       class="fixed top-0 left-0 right-0 text-xs p-4 tracking-tight bg-white lg:text-lg"
     >
+    <!-- Flex Container-->
       <div class="flex items-center content-center justify-between">
+        <!-- Logo -->
         <div class="flex flex-row items-center gap-1.5 lg:pl-8">
           <img
             src="./images/image 17.png"
-            alt="some image"
+            alt="logo icon"
             class="title-icon"
           />
           <h3 class="title font-bold text-xs lg:text-lg">
             My learning journal
           </h3>
         </div>
-        <ul
-          class="flex flex-row uppercase font-semibold gap-4 lg:mr-10 lg:gap-8 md:mr-10"
+
+        <!-- Menu Items-->
+        <div
+          class="hidden flex flex-row uppercase font-semibold gap-4 lg:mr-10 lg:gap-8 md:mr-10"
         >
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="./aboutme.html">About Me</a></li>
-        </ul>
+          <a href="./index.html">Home</a>
+          <a href="./aboutme.html">About Me</a>
+      </div>
+
+          <!-- Hamburger Icon-->
+          <button id="menu-btn" class="block hamburger ml-auto md:hidden focus:outline-none">
+            <span class="hamburger-top"></span>
+            <span class="hamburger-middle"></span>
+            <span class="hamburger-bottom"></span>
+          </button>
+
+          <!-- Mobile Menu -->
+          <div class="md:hidden">
+            <div id="menu" class="absolute flex-col items-center self-end hidden py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
+              <a href="./index.html">Home</a>
+              <a href="./aboutme.html">About Me</a>
+            </div>
+          </div>
+
       </div>
     </nav>
 
+    <!-- Main Featured Blog Section -->
     <header
       class="blog-featured flex flex-col justify-end h-full p-8 text-white mt-14 lg:p-12 lg:h-128"
     >
@@ -49,6 +70,7 @@
       </p>
     </header>
 
+    <!-- Grid of featured blogs-->
     <article
       class="blog-article-container grid pt-5 px-5 lg:px-12 mt-4 lg:grid-cols-3 lg:gap-16 md:grid-cols-3 md:gap-7"
     >
@@ -173,5 +195,7 @@
       <p class="font-bold">My Learning Journal</p>
       <p>Copyright @2022</p>
     </footer>
+
+    <script src="index.js"></script>
   </body>
 </html>

@@ -13,52 +13,53 @@
   <body class="font-sans leading-6">
     <!-- Navbar -->
     <nav
-      class="fixed top-0 left-0 right-0 text-xs p-4 tracking-tight bg-white lg:text-lg"
+      class="fixed top-0 left-0 right-0 bg-white p-4 text-xs tracking-tight lg:text-lg"
     >
-    <!-- Flex Container-->
-      <div class="flex items-center content-center justify-between">
+      <!-- Flex Container-->
+      <div class="flex content-center items-center justify-between">
         <!-- Logo -->
         <div class="flex flex-row items-center gap-1.5 lg:pl-8">
-          <img
-            src="./images/image 17.png"
-            alt="logo icon"
-            class="title-icon"
-          />
-          <h3 class="title font-bold text-xs lg:text-lg">
+          <img src="./images/image 17.png" alt="logo icon" class="title-icon" />
+          <h3 class="title text-xs font-bold lg:text-lg">
             My learning journal
           </h3>
         </div>
 
         <!-- Menu Items-->
         <div
-          class="hidden flex flex-row uppercase font-semibold gap-4 lg:mr-10 lg:gap-8 md:mr-10"
+          class="flex hidden flex-row gap-4 font-semibold uppercase md:mr-10 lg:mr-10 lg:gap-8"
         >
           <a href="./index.html">Home</a>
           <a href="./aboutme.html">About Me</a>
-      </div>
+        </div>
 
-          <!-- Hamburger Icon-->
-          <button id="menu-btn" class="block hamburger ml-auto md:hidden focus:outline-none">
-            <span class="hamburger-top"></span>
-            <span class="hamburger-middle"></span>
-            <span class="hamburger-bottom"></span>
-          </button>
+        <!-- Hamburger Icon-->
+        <button
+          id="menu-btn"
+          class="hamburger ml-auto block focus:outline-none md:hidden"
+        >
+          <span class="hamburger-top"></span>
+          <span class="hamburger-middle"></span>
+          <span class="hamburger-bottom"></span>
+        </button>
 
-          <!-- Mobile Menu -->
-          <div class="md:hidden">
-            <div id="menu" class="absolute flex-col items-center self-end hidden py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
-              <a href="./index.html">Home</a>
-              <a href="./aboutme.html">About Me</a>
-            </div>
+        <!-- Mobile Menu -->
+        <div class="md:hidden">
+          <div
+            id="menu"
+            class="absolute left-6 right-6 mt-10 hidden flex-col items-center space-y-6 self-end bg-white py-8 font-bold drop-shadow-md sm:w-auto sm:self-center"
+          >
+            <a href="./index.html">Home</a>
+            <a href="./aboutme.html">About Me</a>
           </div>
-
+        </div>
       </div>
     </nav>
 
-    <article class="main-blog flex flex-col p-6 mt-14 lg:mt-20">
+    <article class="main-blog mt-14 flex flex-col p-6 lg:mt-20">
       <section class="flex flex-col lg:px-24">
         <p class="date text-xs">July 23, 2022</p>
-        <h2 class="blog-featured-title text-3xl font-bold my-6">
+        <h2 class="blog-featured-title my-6 text-3xl font-bold">
           My new journey as a bootcamp student
         </h2>
         <p class="blog-featured-content mb-6">
@@ -69,7 +70,7 @@
       </section>
       <img src="./images/blog-image-hero.png" alt="some image" class="lg:p-6" />
       <section class="blog-post lg:px-24">
-        <p class="blog-title font-bold my-6">
+        <p class="blog-title my-6 font-bold">
           How I stayed committed to learning
         </p>
         <p class="blog-content">
@@ -99,10 +100,10 @@
       </section>
     </article>
 
-    <span class="font-bold flex justify-center p-6">Recent posts</span>
+    <span class="flex justify-center p-6 font-bold">Recent posts</span>
 
     <article
-      class="blog-article-container grid pt-5 px-5 lg:px-12 mb-10 lg:grid-cols-3 lg:gap-36 md:grid-cols-3 md:gap-7"
+      class="blog-article-container mb-10 grid px-5 pt-5 md:grid-cols-3 md:gap-7 lg:grid-cols-3 lg:gap-36 lg:px-12"
     >
       <section class="blog-article mb-4">
         <img
@@ -112,7 +113,7 @@
         />
         <div class="content-section mt-5 mb-12">
           <p class="date">July 23, 2022</p>
-          <h2 class="blog-article-title text-2xl font-bold my-2">
+          <h2 class="blog-article-title my-2 text-2xl font-bold">
             <a href="">Blog one</a>
           </h2>
           <p class="blog-article-content">
@@ -131,7 +132,7 @@
         />
         <div class="content-section mt-5 mb-12">
           <p class="date">July 23, 2022</p>
-          <h2 class="blog-article-title text-2xl font-bold my-2">
+          <h2 class="blog-article-title my-2 text-2xl font-bold">
             <a href="">Blog two</a>
           </h2>
           <p class="blog-article-content">
@@ -150,7 +151,7 @@
         />
         <div class="content-section mt-5">
           <p class="date">July 23, 2022</p>
-          <h2 class="blog-article-title text-2xl font-bold my-2">
+          <h2 class="blog-article-title my-2 text-2xl font-bold">
             <a href="">Blog three</a>
           </h2>
           <p class="blog-article-content">
@@ -162,7 +163,7 @@
       </section>
     </article>
     <footer
-      class="flex flex-col justify-center items-center bg-stone-800 text-white text-xs h-28"
+      class="flex h-28 flex-col items-center justify-center bg-stone-800 text-xs text-white"
     >
       <p class="font-bold">My Learning Journal</p>
       <p>Copyright @2022</p>

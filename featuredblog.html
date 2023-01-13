@@ -13,24 +13,34 @@
   <body class="font-sans leading-6">
     <!-- Navbar -->
     <nav
-      class="fixed top-0 left-0 right-0 bg-white p-4 text-xs tracking-tight lg:text-lg"
+      class="fixed top-0 left-0 right-0 bg-white p-4 text-xs tracking-tight drop-shadow-2xl lg:text-lg"
     >
       <!-- Flex Container-->
       <div class="flex content-center items-center justify-between">
         <!-- Logo -->
         <div class="flex flex-row items-center gap-1.5 lg:pl-8">
-          <img src="./images/image 17.png" alt="logo icon" class="title-icon" />
-          <h3 class="title text-xs font-bold lg:text-lg">
-            My learning journal
-          </h3>
+          <a href="./index.html">
+            <img
+              src="./images/image 17.png"
+              alt="logo icon"
+              class="title-icon"
+            />
+          </a>
+          <a href="./index.html">
+            <h3 class="title text-xs font-bold lg:text-lg">
+              My learning journal
+            </h3>
+          </a>
         </div>
 
         <!-- Menu Items-->
-        <div
-          class="flex hidden flex-row gap-4 font-semibold uppercase md:mr-10 lg:mr-10 lg:gap-8"
-        >
-          <a href="./index.html">Home</a>
-          <a href="./aboutme.html">About Me</a>
+        <div class="hidden md:block">
+          <div
+            class="flex flex-row gap-4 font-semibold uppercase md:mr-10 lg:mr-10 lg:gap-8"
+          >
+            <a href="./index.html">Home</a>
+            <a href="./aboutme.html">About Me</a>
+          </div>
         </div>
 
         <!-- Hamburger Icon-->
@@ -47,7 +57,7 @@
         <div class="md:hidden">
           <div
             id="menu"
-            class="absolute left-6 right-6 mt-10 hidden flex-col items-center space-y-6 self-end bg-white py-8 font-bold drop-shadow-md sm:w-auto sm:self-center"
+            class="absolute left-6 right-6 mt-10 hidden flex-col items-center space-y-6 self-end bg-white py-8 font-bold sm:w-auto sm:self-center"
           >
             <a href="./index.html">Home</a>
             <a href="./aboutme.html">About Me</a>
